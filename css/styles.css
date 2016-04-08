@@ -1,4 +1,22 @@
 div {
   text-align: center;
-  margin: 30px
+  margin: 30px;
+
+}
+/*
+#yourSize {
+
+  display: inline-block;
+  border: 2px solid black
+}
+
+#yourToppings {
+  display: inline-block;
+  width: 50px;
+  */
+}
+
+ /*what the fuck!*/
+.toppings {
+  background-color: pink;
 }
