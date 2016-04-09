@@ -1,22 +1,44 @@
 div {
   text-align: center;
   margin: 30px;
-
-}
-/*
-#yourSize {
-
-  display: inline-block;
-  border: 2px solid black
 }
 
-#yourToppings {
-  display: inline-block;
-  width: 50px;
-  */
+img {
+  width: 250px;
+  height: 250px;
 }
 
- /*what the fuck!*/
-.toppings {
+body {
+  /*background-image: url(../imgs/background.JPG);
+  text-shadow: 2px 2px #ff0000;*/
+}
+
+#newTopping {
+  display:inline-block;
   background-color: pink;
+  width: 100px;
+}
+#savePizza {
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid pink;
+  width: 100px;
+  display: none;
+}
+
+#size {
+  margin: auto;
+  width: 300px
+}
+
+#howMuch{
+  display: none;
+}
+
+.spider {
+  position: fixed;
+  border: 5px solid pink;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
 }

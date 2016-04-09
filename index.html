@@ -9,6 +9,7 @@
 
 
     <script src="js/jquery-1.12.3.min.js" ></script>
+    <script src="jquery-cookie-master/src/jquery.cookie.js"></script>
     <script src="js/scripts.js" ></script>
   </head>
   <body>
@@ -17,21 +18,26 @@
 
     <div class="userIn">
       <h1>get pizza, why not</h1>
+      <img id="pizza" src="imgs/Pizza_Man.jpg">
+
       <form class="" action="index.html" method="post">
 
 
         <div class="toppings">
-          <input id="topping" type="text" name="name" placeholder="toppings" value="peperone">
-          <p id="newTopping">add topping</p>
+
+          <input id="topping" type="text" name="name" placeholder="toppings" value="">
+          <label p id="newTopping" for="#topping">add topping</label>
         </div>
 
         <div class="size">
+          <label> size of pizza</label>
           <input id="size" type="range" name="name" value="">
         </div>
 
-        <button type="submit" name="button">how much?</button>
+        <button id="howMuch" type="submit" name="button">how much?</button>
 
       </form>
+      <p id="savePizza">Put in pizza cart for later</p>
     </div>
 
     <div class="output">
@@ -40,5 +46,9 @@
       <div id="yourSize"></div>
     </div>
 
+    <img class="spider" src="imgs/pizza_time.jpg">
+    <div id="savedPizzas">
+
+    </div>
   </body>
 </html>
